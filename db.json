@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Prod 1",
+      "preco": 100,
+      "marca": "marca 1",
+      "dataValidade": "2023-10-01"
+    },
+    {
+      "id": 2,
+      "nome": "Produto 2",
+      "preco": 200,
+      "marca": "marca 1",
+      "dataValidade": "2023-10-01"
+    },
+    {
+      "id": 3,
+      "nome": "Prod 3",
+      "preco": 302,
+      "marca": "marca 1",
+      "dataValidade": "2023-10-01"
+    },
+    {
+      "nome": "Produto 4",
+      "preco": 400,
+      "marca": "Marca 2",
+      "dataValidade": "2025-02-20",
+      "id": 4
+    }
+  ]
+}

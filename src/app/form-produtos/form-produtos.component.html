@@ -1,0 +1,23 @@
+<h3>Formulário de Produtos</h3>
+
+<div>
+    <label for="nome">NOME: </label>
+    <input [(ngModel)]="produto.nome" id="nome"> 
+    <br />
+
+    <label for="preco">PREÇO: </label>
+    <input  type=number [(ngModel)]="produto.preco" id="preco"> 
+    <br />
+
+    <label for="marca">MARCA: </label>
+    <input [(ngModel)]="produto.marca" id="marca"> 
+    <br />
+
+    <label for="data">PREÇO: </label>
+    <input type="date" [(ngModel)]="produto.dataValidade" id="data"> 
+    <br />
+
+    <button (click)="salvar()">{{botaoAcao}}</button>
+    <button (click)="voltar()">Voltar</button>
+</div>
+<br />
